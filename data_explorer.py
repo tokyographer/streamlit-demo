@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
-    st.title("Simple Data Explorer")
+    st.title("Simple Data Explorer Demo App")
     
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
     
